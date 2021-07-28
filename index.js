@@ -150,6 +150,7 @@ Mailgen.prototype.parseParams = function (params) {
 
     // Convert intro, outro, and action to arrays if a string or object is used instead
     body.intro  = convertToArray(body.intro);
+    body.graph  = convertToArray(body.graph);
     body.outro  = convertToArray(body.outro);
     body.action = convertToArray(body.action);
     body.table  = convertToArray(body.table);

@@ -46,6 +46,7 @@ declare namespace Mailgen {
         signature?: string;
         title?: string;
         intro?: string | string[];
+        graph?: string | string[];
         action?: Action | Action[];
         table?: Table | Table[];
         dictionary?: any;
